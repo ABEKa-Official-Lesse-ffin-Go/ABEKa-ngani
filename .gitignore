@@ -1,0 +1,33 @@
+# Private credentials and environment files
+.env
+.env.*
+!.env.example
+
+# Database credentials
+/includes/config.php
+/includes/ai_config.php
+/includes/mail_config.php
+/config.local.php
+
+# Private database exports and SQL files
+/sql/*.sql
+
+# Private uploaded documents
+/uploads/*
+!/uploads/.gitkeep
+
+# Cache and temporary files
+/cache/*
+/tmp/
+*.log
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Windows files
+Thumbs.db
+.DS_Store
+
+/config/brevo_mailer.php
+/includes/mailer.php

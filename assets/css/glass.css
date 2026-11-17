@@ -1,0 +1,1722 @@
+:root {
+    --g1: #e9f8e0;
+    --g2: #a9dd9a;
+    --ink: #17321c;
+    --deep: #2f6b3a;
+    --blue: #5b8fdc;
+    --glass: rgba(255, 255, 255, .35);
+    --edge: rgba(255, 255, 255, .65);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font: 16px/1.5 "Rubik", "Segoe UI", system-ui, sans-serif;
+    color: var(--ink);
+    background: linear-gradient(135deg, var(--g1), var(--g2) 55%, #f7e9a8);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Background logo */
+.bg-logo {
+    position: fixed;
+    inset: 0;
+    background: url("../bg-logo.png") center/min(60vw, 70vh, 640px) no-repeat;
+    opacity: .3;
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* Glass effect and card styling */
+.glass,
+.card {
+    background: var(--glass);
+    backdrop-filter: blur(16px) saturate(140%);
+    -webkit-backdrop-filter: blur(16px) saturate(140%);
+    border: 1px solid var(--edge);
+    border-radius: 22px;
+    box-shadow:
+        0 8px 32px rgba(30, 80, 40, .18),
+        inset 0 1px 0 rgba(255, 255, 255, .7);
+}
+
+.card {
+    padding: 1.25rem;
+    margin: 0 0 1.25rem;
+}
+
+main {
+    flex: 1;
+    width: min(1100px, 94%);
+    margin: 1rem auto;
+}
+
+/* Navigation bar */
+.nav {
+    display: flex;
+    align-items: center;
+    gap: clamp(.75rem, 1.5vw, 1.5rem);
+    justify-content: space-between;
+    width: min(1320px, 96%);
+    margin: .75rem auto;
+    padding: .55rem 1.25rem;
+    position: sticky;
+    top: .5rem;
+    z-index: 5;
+}
+
+.logo {
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.nav nav {
+    display: flex;
+    align-items: center;
+    gap: clamp(.75rem, 1.35vw, 1.45rem);
+    flex-wrap: wrap;
+}
+
+.nav nav > a,
+.nav-dd > a {
+    white-space: nowrap;
+    padding: .25rem 0;
+    line-height: 1.2;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav nav a:hover {
+    border-bottom: 3px solid var(--deep);
+}
+
+/* Account and notification icons */
+.acct {
+    display: flex;
+    gap: .55rem;
+    align-items: center;
+    min-width: 0;
+    flex-shrink: 1;
+}
+
+.acct-welcome {
+    max-width: clamp(130px, 18vw, 230px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.acct .iconbtn,
+.acct .dd {
+    flex-shrink: 0;
+}
+
+.iconbtn {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: var(--glass);
+    border: 1px solid var(--edge);
+}
+
+.ico {
+    width: 20px;
+    height: 20px;
+}
+
+.badge {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background: #e0482b;
+    color: #fff;
+    border-radius: 9px;
+    font: 700 11px/16px sans-serif;
+    min-width: 16px;
+    text-align: center;
+    font-style: normal;
+}
+
+.sr {
+    position: absolute;
+    left: -9999px;
+}
+
+/* Headings and form elements */
+h1,
+h2 {
+    margin: .2em 0 .5em;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: .6rem .8rem;
+    border: 1px solid var(--edge);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, .7);
+    font: inherit;
+    margin: .2rem 0 .8rem;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: .6rem 1.2rem;
+    border: 0;
+    border-radius: 14px;
+    background: linear-gradient(180deg, #4f9a5c, var(--deep));
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font: inherit;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .4);
+}
+
+.btn.blue {
+    background: linear-gradient(180deg, #78a6ea, var(--blue));
+}
+
+.btn.sm {
+    padding: .3rem .7rem;
+}
+
+.btn.danger {
+    background: linear-gradient(180deg, #e2674f, #b93a26);
+}
+
+/* Authentication forms */
+.auth {
+    width: min(440px, 92%);
+    margin: 6vh auto;
+}
+
+.pw {
+    position: relative;
+    display: block;
+}
+
+.pw button {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+
+/* Grid layouts */
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.grid-all {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+/* Thumbnail cards */
+.thumb {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid var(--edge);
+    background: var(--glass);
+}
+
+.thumb .img {
+    aspect-ratio: 4/3;
+    background-size: cover;
+    background-position: center;
+}
+
+.thumb b {
+    display: block;
+    padding: .4rem;
+    text-align: center;
+    background: rgba(91, 143, 220, .75);
+    color: #fff;
+}
+
+/* Visibility and page layouts */
+.hidden {
+    display: none;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    gap: 1rem;
+}
+
+.side a {
+    display: block;
+    padding: .15rem .5rem;
+    color: inherit;
+    text-decoration: none;
+}
+
+.side a.on {
+    border-left: 4px solid var(--deep);
+    font-weight: 700;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: rgba(47, 107, 58, .85);
+    color: #fff;
+    text-align: left;
+}
+
+th,
+td {
+    padding: .6rem .8rem;
+    border-bottom: 1px solid var(--edge);
+}
+
+/* Lists and text styles */
+.list a {
+    display: block;
+    padding: .6rem 0;
+    border-bottom: 1px solid var(--edge);
+    color: inherit;
+    text-decoration: none;
+}
+
+.muted {
+    opacity: .7;
+    font-size: .9em;
+}
+
+/* Flex row layouts */
+.row {
+    display: flex;
+    gap: .5rem;
+}
+
+.row input {
+    margin-bottom: .4rem;
+}
+
+form.row,
+.row form {
+    margin: 0;
+}
+
+/* Resume display */
+.unread {
+    border-left: 4px solid #e0482b;
+}
+
+.resume {
+    background: #fff;
+    color: #111;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: .75rem 1.5rem;
+    width: 100%;
+    margin: 2.25rem 0 0;
+    padding: 1.05rem clamp(1.25rem, 3.5vw, 3rem);
+    font-size: .85rem;
+    background: transparent;
+    backdrop-filter: none;
+    border-top: none;
+    box-sizing: border-box;
+}
+footer > span:first-child {
+    justify-self: start;
+}
+footer > span:nth-child(2) {
+    justify-self: center;
+    text-align: center;
+}
+footer .social {
+    justify-self: end;
+    display: inline-flex;
+    align-items: center;
+    gap: .75rem;
+}
+footer .social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .68);
+    border: 1px solid rgba(255, 255, 255, .85);
+    transition: transform .18s ease, background .18s ease, box-shadow .18s ease;
+}
+footer .social a:hover {
+    transform: translateY(-2px);
+    background: #fff;
+    box-shadow: 0 6px 14px rgba(15, 23, 42, .1);
+}
+@media (max-width: 760px) {
+    footer {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    footer > span:first-child,
+    footer > span:nth-child(2),
+    footer .social {
+        justify-self: center;
+    }
+}
+.auth-forgot {
+    margin: .25rem 0 .85rem;
+    text-align: right;
+    font-size: .88rem;
+}
+
+footer a {
+    color: inherit;
+}
+
+/* Add button */
+.addbtn {
+    flex: 0 0 auto;
+    align-self: flex-start;
+    margin-top: .2rem;
+    height: 2.55rem;
+    width: 2.55rem;
+    padding: 0;
+    font-size: 1.4rem;
+    line-height: 1;
+    border-radius: 12px;
+}
+
+#addrs .row input {
+    flex: 1;
+}
+
+/* Collapsible sections */
+.fold {
+    align-self: start;
+}
+
+.foldhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foldbtn {
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.fold.collapsed .foldbody {
+    display: none;
+}
+
+.fold.collapsed .foldhead h2 {
+    margin-bottom: .2em;
+}
+
+/* Social media links */
+.social {
+    display: flex;
+    gap: .6rem;
+    align-items: center;
+}
+
+.social a {
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: var(--glass);
+    border: 1px solid var(--edge);
+    color: var(--ink);
+    transition: transform .15s, background .15s;
+}
+
+.social a:hover {
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, .7);
+}
+
+.social svg {
+    width: 18px;
+    height: 18px;
+}
+
+/* Notification dropdown */
+button.iconbtn {
+    cursor: pointer;
+    color: inherit;
+    padding: 0;
+    font: inherit;
+}
+
+.dd {
+    position: relative;
+}
+
+.ddpanel {
+    position: absolute;
+    right: 0;
+    top: 46px;
+    width: min(360px, 90vw);
+    max-height: 420px;
+    overflow: auto;
+    padding: .5rem;
+    z-index: 20;
+    background: rgba(240, 250, 235, .85);
+}
+
+.ddpanel[hidden] {
+    display: none;
+}
+
+.ddhead {
+    font-weight: 700;
+    padding: .3rem .6rem;
+}
+
+.ddi {
+    display: block;
+    padding: .6rem;
+    border-radius: 12px;
+    border-bottom: 1px solid var(--edge);
+    color: inherit;
+    text-decoration: none;
+    font-size: .92rem;
+}
+
+.ddi:hover {
+    background: rgba(255, 255, 255, .55);
+}
+
+.ddi small {
+    display: block;
+    opacity: .7;
+}
+
+.ddi.unread {
+    border-left: 4px solid #e0482b;
+    background: rgba(255, 255, 255, .4);
+}
+
+.ddall {
+    display: block;
+    text-align: center;
+    padding: .6rem;
+    font-weight: 700;
+}
+
+/* Skill selection options */
+.skill-pool {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: .45rem;
+    margin: .6rem 0 1rem;
+}
+
+.skill-option {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    padding: .45rem .55rem;
+    border: 1px solid var(--edge);
+    border-radius: 9px;
+    background: rgba(255, 255, 255, .28);
+    font-size: .9rem;
+}
+
+.skill-option input {
+    width: auto;
+    margin: 0;
+    flex: 0 0 auto;
+}
+
+/* ABEKa Assistant — floating chat widget */
+.abeka-chat {
+    position: fixed;
+    right: 24px;
+    bottom: 75px;
+    z-index: 1000;
+    font-family: inherit;
+}
+
+/* Chat launcher button */
+.abeka-chat-launch {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    border: 0;
+    border-radius: 999px;
+    padding: .8rem 1.15rem;
+    background: linear-gradient(135deg, #397c49, #245d35);
+    color: #fff;
+    font: 700 .95rem/1.2 "Rubik", "Segoe UI", system-ui, sans-serif;
+    box-shadow: 0 8px 24px rgba(23, 65, 34, .28);
+    cursor: pointer;
+    transition: transform .18s, box-shadow .18s;
+}
+
+.abeka-chat-launch:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 11px 28px rgba(23, 65, 34, .34);
+}
+
+.abeka-chat-launch-icon {
+    display: grid;
+    place-items: center;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .2);
+    font-size: 1.2rem;
+}
+
+/* Chat window */
+.abeka-chat-panel {
+    position: absolute;
+    right: 0;
+    bottom: 64px;
+    width: min(380px, calc(100vw - 28px));
+    height: min(560px, calc(100dvh - 115px));
+    min-height: 390px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: rgba(245, 252, 242, .96);
+    border: 1px solid rgba(255, 255, 255, .85);
+    box-shadow: 0 18px 55px rgba(22, 61, 31, .25);
+    border-radius: 20px;
+}
+
+.abeka-chat-panel[hidden] {
+    display: none;
+}
+
+/* Chat window header */
+.abeka-chat-head {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    padding: .9rem 1rem;
+    background: linear-gradient(120deg, #397c49, #2f6b3a);
+    color: #fff;
+}
+
+.abeka-chat-avatar {
+    display: grid;
+    place-items: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .2);
+    font-size: 1.35rem;
+}
+
+.abeka-chat-heading {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    line-height: 1.35;
+}
+
+.abeka-chat-heading small {
+    font-size: .72rem;
+    opacity: .9;
+}
+
+.abeka-chat-status {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin-right: 3px;
+    border-radius: 50%;
+    background: #a9edaa;
+}
+
+.abeka-chat-close {
+    border: 0;
+    background: transparent;
+    color: #fff;
+    font-size: 1.65rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: .2rem .35rem;
+}
+
+/* Chat messages */
+.abeka-chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    scroll-behavior: smooth;
+}
+
+.abeka-chat-message {
+    display: flex;
+    width: 100%;
+}
+
+.abeka-chat-message.user {
+    justify-content: flex-end;
+}
+
+.abeka-chat-bubble {
+    max-width: 88%;
+    padding: .7rem .85rem;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, .9);
+    border: 1px solid rgba(47, 107, 58, .12);
+    color: #203b26;
+    font-size: .88rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    box-shadow: 0 2px 8px rgba(30, 80, 40, .06);
+}
+
+.abeka-chat-message.user .abeka-chat-bubble {
+    background: #397c49;
+    color: #fff;
+    border-color: #397c49;
+    border-bottom-right-radius: 5px;
+}
+
+.abeka-chat-message.bot .abeka-chat-bubble {
+    border-bottom-left-radius: 5px;
+}
+
+.abeka-chat-message.typing .abeka-chat-bubble {
+    opacity: .7;
+    font-style: italic;
+}
+
+/* Suggested chat questions */
+.abeka-chat-suggestions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem;
+    padding: 0 .85rem .65rem;
+}
+
+.abeka-chat-suggestions button {
+    border: 1px solid rgba(47, 107, 58, .25);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, .75);
+    color: #285d35;
+    padding: .35rem .65rem;
+    font: 600 .75rem/1.2 "Rubik", "Segoe UI", system-ui, sans-serif;
+    cursor: pointer;
+}
+
+.abeka-chat-suggestions button:hover {
+    background: #e4f3df;
+}
+
+/* Chat input form */
+.abeka-chat-form {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .7rem .8rem;
+    border-top: 1px solid rgba(47, 107, 58, .12);
+    background: rgba(255, 255, 255, .45);
+}
+
+.abeka-chat-form input {
+    flex: 1;
+    min-width: 0;
+    margin: 0;
+    background: rgba(255, 255, 255, .9);
+    border: 1px solid rgba(47, 107, 58, .2);
+    border-radius: 999px;
+    padding: .65rem .85rem;
+    font-size: .88rem;
+}
+
+.abeka-chat-form button {
+    flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 50%;
+    background: #397c49;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.abeka-chat-form button:disabled {
+    opacity: .55;
+    cursor: wait;
+}
+
+/* Chat disclaimer */
+.abeka-chat-note {
+    margin: 0;
+    padding: 0 .9rem .65rem;
+    text-align: center;
+    color: #607264;
+    font-size: .66rem;
+}
+
+/* Responsive layouts */
+@media (max-width: 760px) {
+    .grid3 {
+        grid-template-columns: 1fr;
+    }
+
+    .layout {
+        grid-template-columns: 1fr;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 520px) {
+    .abeka-chat {
+        right: 12px;
+        bottom: 12px;
+    }
+
+    .abeka-chat-launch {
+        padding: .7rem .95rem;
+    }
+
+    .abeka-chat-panel {
+        right: -2px;
+        bottom: 58px;
+        width: calc(100vw - 24px);
+        height: min(600px, calc(100dvh - 90px));
+        min-height: 340px;
+    }
+}
+
+/* Print layout for resumes */
+@media print {
+    body * {
+        visibility: hidden;
+    }
+
+    .resume,
+    .resume * {
+        visibility: visible;
+    }
+
+    .resume {
+        position: absolute;
+        inset: 0;
+    }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+    .abeka-chat-launch,
+    .abeka-chat-messages {
+        transition: none;
+        scroll-behavior: auto;
+    }
+}
+
+/* ABEKa ALERT CENTER */
+.alert-nav {
+    color: #b42318 !important;
+    font-weight: 800;
+}
+.alert-hero {
+    padding: clamp(1.25rem, 4vw, 2.5rem);
+    text-align: center;
+    background: linear-gradient(135deg, rgba(255,245,235,.96), rgba(255,218,194,.88));
+    border: 1px solid rgba(180,35,24,.22);
+}
+.alert-hero-mark { font-size: 2.8rem; line-height: 1.2; }
+.alert-kicker, .alert-eyebrow {
+    color: #a52a20;
+    font-size: .75rem;
+    font-weight: 800;
+    letter-spacing: .1em;
+    margin: .25rem 0;
+}
+.alert-hero h1 { color: #9f1d17; font-size: clamp(1.65rem, 4vw, 2.6rem); }
+.alert-hero > p:not(.alert-kicker) { max-width: 680px; margin: .5rem auto 1.2rem; }
+.alert-911 {
+    display: inline-flex;
+    flex-direction: column;
+    gap: .1rem;
+    min-width: min(100%, 280px);
+    padding: .9rem 1.5rem;
+    border-radius: 16px;
+    background: #b42318;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 8px 22px rgba(140,25,20,.2);
+}
+.alert-911 span { font-size: .7rem; font-weight: 800; letter-spacing: .06em; }
+.alert-911 strong { font-size: 2rem; line-height: 1.15; }
+.alert-911 small { opacity: .9; }
+.alert-section { margin-top: 1rem; }
+.alert-section-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.alert-section-heading h2 { margin: .15rem 0 .35rem; }
+.alert-heading-icon { font-size: 1.8rem; }
+.alert-filter-form {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    gap: .65rem 1rem;
+    align-items: end;
+}
+.alert-filter-form label, .alert-admin-form label {
+    display: block;
+    font-weight: 650;
+}
+.alert-filter-form input, .alert-filter-form select,
+.alert-admin-form input, .alert-admin-form select {
+    display: block;
+    width: 100%;
+    margin: .3rem 0 .55rem;
+}
+.alert-search-field { grid-column: 1 / -1; }
+.alert-filter-actions { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+.alert-map-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0 .65rem;
+}
+.alert-map-toolbar small { display: block; opacity: .7; }
+.alert-map-frame {
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+    border-radius: 16px;
+    border: 1px solid var(--edge);
+}
+.alert-map-frame iframe { width: 100%; height: 100%; border: 0; }
+.alert-map-note, .alert-verification { display: block; opacity: .72; font-size: .8rem; margin-top: .5rem; }
+.alert-district-heading {
+    margin: 1.4rem 0 .55rem;
+    padding: .65rem .85rem;
+    border-radius: 10px;
+    color: #fff;
+    background: linear-gradient(90deg, #b94a25, #ed8736);
+}
+.alert-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: .9rem;
+    margin: .55rem 0;
+    border: 1px solid rgba(40,70,40,.13);
+    border-radius: 14px;
+    background: rgba(255,255,255,.48);
+}
+.alert-contact-info { min-width: 0; }
+.alert-contact-info h3 { margin: .25rem 0; }
+.alert-contact-info p { margin: .2rem 0; overflow-wrap: anywhere; }
+.alert-service-tag {
+    display: inline-block;
+    padding: .18rem .55rem;
+    border-radius: 999px;
+    color: #8c241b;
+    background: #ffe3d6;
+    font-size: .72rem;
+    font-weight: 800;
+}
+.alert-contact-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: .4rem;
+    flex: 0 0 auto;
+}
+.alert-phone { font-size: 1.05rem; overflow-wrap: anywhere; }
+.alert-call-small { background: #247b43; }
+.alert-map-link { font-size: .85rem; color: var(--deep); }
+.alert-empty {
+    padding: 1.25rem;
+    border-radius: 12px;
+    background: rgba(255,255,255,.5);
+}
+.alert-disclaimer {
+    margin: 0 0 1.2rem;
+    padding: .9rem 1rem;
+    border-left: 4px solid #c45a2a;
+    border-radius: 8px;
+    background: rgba(255,245,225,.8);
+    font-size: .9rem;
+}
+.alert-admin-form {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    gap: .6rem 1rem;
+}
+.alert-admin-check { display: flex !important; align-items: center; gap: .5rem; }
+.alert-admin-check input { width: auto; margin: 0; }
+.alert-admin-success, .alert-admin-error { padding: .7rem; border-radius: 9px; }
+.alert-admin-success { background: #e0f4e4; color: #185c2b; }
+.alert-admin-error { background: #ffe4e0; color: #8c2018; }
+.alert-admin-table-wrap { overflow-x: auto; }
+.alert-admin-table { min-width: 680px; }
+.alert-inline-delete { display: inline-block; margin-left: .25rem; }
+@media (max-width: 700px) {
+    .alert-filter-form, .alert-admin-form { grid-template-columns: 1fr; }
+    .alert-search-field { grid-column: auto; }
+    .alert-map-toolbar { align-items: flex-start; flex-direction: column; }
+    .alert-map-frame { height: 290px; }
+    .alert-contact { align-items: flex-start; flex-direction: column; }
+    .alert-contact-actions { align-items: flex-start; width: 100%; }
+}
+
+/* ABEKa E-LEARNING */
+.elearn-hero {
+    text-align: center;
+    padding: clamp(1.25rem, 3vw, 2rem);
+}
+.elearn-kicker, .elearn-eyebrow {
+    font-size: .75rem;
+    font-weight: 800;
+    letter-spacing: .09em;
+    color: #1b6b3a;
+    margin: 0 0 .35rem;
+    display: block;
+}
+.elearn-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .6rem;
+    margin: 1rem 0;
+}
+.elearn-tab {
+    appearance: none;
+    border: 1px solid rgba(255,255,255,.65);
+    background: rgba(255,255,255,.55);
+    backdrop-filter: blur(10px);
+    padding: .65rem 1.1rem;
+    border-radius: 999px;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    color: inherit;
+    transition: background .18s ease, transform .18s ease, box-shadow .18s ease;
+}
+.elearn-tab:hover {
+    background: rgba(255,255,255,.8);
+}
+.elearn-tab.active {
+    background: #1b6b3a;
+    color: #fff;
+    border-color: #1b6b3a;
+    box-shadow: 0 6px 16px rgba(27,107,58,.22);
+}
+.elearn-panel {
+    padding: clamp(1.1rem, 2.5vw, 1.75rem);
+}
+.elearn-group-title {
+    margin: 1.4rem 0 .75rem;
+    font-size: 1.05rem;
+    border-bottom: 1px solid rgba(0,0,0,.08);
+    padding-bottom: .35rem;
+}
+.elearn-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+.elearn-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .85rem;
+    padding: 1rem;
+    border-radius: 14px;
+    background: rgba(255,255,255,.62);
+    border: 1px solid rgba(255,255,255,.75);
+}
+.elearn-card h4 {
+    margin: .35rem 0;
+    font-size: 1rem;
+}
+.elearn-card p {
+    margin: 0;
+    font-size: .9rem;
+    opacity: .85;
+}
+.elearn-badge {
+    display: inline-block;
+    font-size: .72rem;
+    font-weight: 700;
+    padding: .2rem .55rem;
+    border-radius: 999px;
+    background: rgba(27,107,58,.12);
+    color: #1b6b3a;
+}
+
+/* ABEKa EMPLOYEE DOCUMENTS */
+.doc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: .85rem;
+    margin: .75rem 0 1.25rem;
+}
+.doc-item {
+    padding: .85rem;
+    border-radius: 12px;
+    background: rgba(255,255,255,.58);
+    border: 1px solid rgba(255,255,255,.78);
+    display: flex;
+    flex-direction: column;
+    gap: .45rem;
+}
+.doc-item-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5rem;
+}
+.doc-status-ok {
+    font-size: .75rem;
+    font-weight: 700;
+    color: #15803d;
+    background: rgba(21,128,61,.12);
+    padding: .15rem .5rem;
+    border-radius: 999px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+.doc-status-miss {
+    font-size: .75rem;
+    color: #64748b;
+}
+.doc-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5rem;
+    font-size: .82rem;
+}
+.doc-remove {
+    display: inline-flex;
+    align-items: center;
+    gap: .25rem;
+    font-size: .8rem;
+    color: #b42318;
+    margin: 0;
+}
+.doc-check-list {
+    list-style: none;
+    padding: 0;
+    margin: .5rem 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: .5rem;
+}
+.doc-check-list li {
+    display: flex;
+    align-items: center;
+    gap: .45rem;
+    padding: .45rem .7rem;
+    border-radius: 10px;
+    background: rgba(255,255,255,.55);
+    border: 1px solid rgba(255,255,255,.75);
+    font-size: .9rem;
+}
+.doc-check-yes {
+    border-color: rgba(21,128,61,.35) !important;
+    background: rgba(220,252,231,.65) !important;
+}
+.doc-tick {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    background: #16a34a;
+    color: #fff;
+    font-size: .75rem;
+    font-weight: 800;
+    flex-shrink: 0;
+}
+.doc-miss {
+    color: #94a3b8;
+    font-size: 1rem;
+    flex-shrink: 0;
+}
+.doc-check-list li a {
+    margin-left: auto;
+    font-size: .82rem;
+    font-weight: 600;
+}
+.doc-check-list li small {
+    margin-left: auto;
+    font-size: .78rem;
+}
+
+/* ABEKa HOME HOVER DROPDOWN */
+.nav-dd {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+.nav-dd-menu {
+    position: absolute;
+    top: calc(100% + .35rem);
+    left: 0;
+    min-width: 220px;
+    padding: .5rem;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, .95);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(27, 107, 58, .22);
+    display: none;
+    flex-direction: column;
+    gap: .2rem;
+    z-index: 50;
+    box-shadow: 0 12px 28px rgba(15, 23, 42, .16);
+}
+.nav-dd:hover .nav-dd-menu,
+.nav-dd:focus-within .nav-dd-menu {
+    display: flex;
+}
+.nav-dd-menu a {
+    display: block;
+    padding: .45rem .7rem;
+    border-radius: 9px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.nav-dd-menu a:hover {
+    background: rgba(255, 255, 255, .65);
+}
+.about-hero {
+    text-align: center;
+    padding: clamp(1.25rem, 3vw, 2rem);
+}
+
+/* ABEKa CSE REVIEWER QUIZ */
+.cse-quiz {
+    display: grid;
+    gap: .85rem;
+    margin: .75rem 0 1rem;
+}
+.cse-q-card {
+    padding: .95rem 1rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, .62);
+    border: 1px solid rgba(255, 255, 255, .78);
+}
+.cse-q-title {
+    margin: 0 0 .55rem;
+    font-weight: 600;
+}
+.cse-choice {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin: .3rem 0;
+    font-weight: 400;
+    cursor: pointer;
+}
+.cse-choice input[type="radio"] {
+    width: auto;
+    margin: 0;
+    flex-shrink: 0;
+}
+.cse-letter {
+    min-width: 1.35rem;
+    flex-shrink: 0;
+}
+.cse-fb {
+    margin-top: .5rem;
+    font-size: .86rem;
+    font-weight: 600;
+}
+.cse-fb-ok {
+    color: #15803d;
+}
+.cse-fb-miss {
+    color: #b42318;
+}
+.cse-quiz-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .75rem;
+    margin-top: .5rem;
+}
+.cse-score {
+    font-size: 1rem;
+    color: #1b6b3a;
+}
+
+.cse-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: .75rem;
+    margin: 1rem 0;
+}
+.cse-modes, .cse-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .45rem;
+}
+.cse-pill {
+    font-size: .84rem;
+    font-weight: 600;
+    padding: .35rem .7rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, .65);
+    border: 1px solid rgba(255, 255, 255, .8);
+}
+.cse-q-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .45rem;
+}
+.cse-result-box {
+    padding: 1rem;
+    border-radius: 12px;
+    background: rgba(220, 252, 231, .75);
+    border: 1px solid rgba(21, 128, 61, .35);
+    margin-bottom: 1rem;
+}
+.cse-result-box ul {
+    margin: .5rem 0 0;
+    padding-left: 1.2rem;
+}
+
+.cse-disclaimer {
+    margin: .5rem 0 1rem;
+}
+.cse-card-ok {
+    border-color: rgba(21, 128, 61, .45) !important;
+    background: rgba(220, 252, 231, .45) !important;
+}
+.cse-card-miss {
+    border-color: rgba(180, 35, 24, .38) !important;
+    background: rgba(254, 226, 226, .42) !important;
+}
+.cse-choice-correct {
+    color: #15803d;
+    font-weight: 600;
+}
+.cse-choice-wrong {
+    color: #b42318;
+    text-decoration: line-through;
+}
+.cse-summary-counts {
+    margin: .4rem 0;
+}
+.cse-review-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .45rem;
+    margin-top: .75rem;
+}
+
+/* ABEKa APPLICATION MESSAGES */
+.msg-thread {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin: .5rem 0 .75rem;
+}
+.msg-bubble {
+    padding: .65rem .85rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, .75);
+    background: rgba(255, 255, 255, .6);
+}
+.msg-out {
+    background: rgba(220, 252, 231, .65);
+    border-color: rgba(21, 128, 61, .3);
+}
+.msg-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+    margin-bottom: .25rem;
+    font-size: .85rem;
+}
+.msg-bubble p {
+    margin: 0;
+}
+.msg-form {
+    display: flex;
+    flex-direction: column;
+    gap: .45rem;
+    align-items: flex-start;
+    margin-bottom: .75rem;
+}
+.msg-form textarea {
+    width: 100%;
+}
+
+/* ABEKa GOV OFFICES LOCATOR */
+.gov-hero {
+    text-align: center;
+    padding: clamp(1.25rem, 3vw, 2rem);
+}
+.gov-highlight {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.15rem;
+    margin: 1rem 0;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, .64);
+    border: 1px solid rgba(27, 107, 58, .25);
+}
+.gov-highlight h2 {
+    margin: .35rem 0 .25rem;
+}
+.gov-highlight p {
+    margin: .2rem 0;
+}
+.gov-dir-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+.gov-card-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .45rem;
+}
+
+.nav-dd-trigger {
+    appearance: none;
+    background: transparent;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    padding: .25rem 0;
+    line-height: 1.2;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.nav-dd-trigger:hover {
+    border-bottom: 3px solid var(--deep);
+}
+.nav-dd-click:hover .nav-dd-menu,
+.nav-dd-click:focus-within .nav-dd-menu {
+    display: none;
+}
+.nav-dd-click.open .nav-dd-menu {
+    display: flex !important;
+}
+
+/* ABEKa MOTION DESIGN & ANIMATIONS */
+@keyframes abekaFadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(14px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes ddPopIn {
+    from {
+        opacity: 0;
+        transform: translateY(-6px) scale(.97);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes abekaChatRise {
+    from {
+        opacity: 0;
+        transform: translateY(12px) scale(.98);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes abekaPulse911 {
+    0%, 100% {
+        box-shadow: 0 8px 22px rgba(140, 25, 20, .2);
+    }
+    50% {
+        box-shadow: 0 10px 28px rgba(180, 35, 24, .36);
+    }
+}
+
+/* Smooth entrance for cards and sections */
+main > section,
+main > form.card {
+    animation: abekaFadeUp .45s cubic-bezier(.22, 1, .36, 1) both;
+}
+
+.reveal-ready {
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity .45s cubic-bezier(.22, 1, .36, 1), transform .45s cubic-bezier(.22, 1, .36, 1);
+}
+
+.reveal-ready.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Tactile hover & press micro-interactions */
+.card,
+.elearn-card,
+.doc-item,
+.alert-contact,
+.cse-q-card {
+    transition: transform .22s cubic-bezier(.22, 1, .36, 1), box-shadow .22s ease, border-color .22s ease;
+}
+
+.elearn-card:hover,
+.doc-item:hover,
+.alert-contact:hover,
+.cse-q-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 26px rgba(15, 23, 42, .08);
+}
+
+.btn,
+.iconbtn,
+.elearn-tab,
+.abeka-chat-launch {
+    transition: transform .18s cubic-bezier(.22, 1, .36, 1), box-shadow .18s ease, background .18s ease, opacity .18s ease;
+}
+
+.btn:hover,
+.iconbtn:hover,
+.abeka-chat-launch:hover {
+    transform: translateY(-1.5px);
+}
+
+.btn:active,
+.iconbtn:active,
+.elearn-tab:active,
+.abeka-chat-launch:active {
+    transform: scale(.97);
+}
+
+/* Dropdown & Bida chat animations */
+.nav-dd:hover .nav-dd-menu,
+.nav-dd:focus-within .nav-dd-menu,
+.nav-dd-click.open .nav-dd-menu {
+    animation: ddPopIn .2s cubic-bezier(.22, 1, .36, 1) both;
+}
+
+.abeka-chat-panel:not([hidden]) {
+    animation: abekaChatRise .24s cubic-bezier(.22, 1, .36, 1) both;
+}
+
+.alert-911 {
+    animation: abekaPulse911 2.8s ease-in-out infinite;
+}
+
+/* Respect user reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+    }
+    .reveal-ready {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+/* ABEKa MODERN UI POLISH */
+.glass,
+.card {
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, .06), inset 0 1px 0 rgba(255, 255, 255, .75);
+}
+
+.nav {
+    border-radius: 999px;
+    background: rgba(255, 255, 255, .68);
+    backdrop-filter: blur(16px);
+    box-shadow: 0 10px 28px rgba(15, 23, 42, .07), inset 0 1px 0 rgba(255, 255, 255, .85);
+}
+
+h1, h2, h3 {
+    letter-spacing: -.015em;
+}
+
+.btn {
+    border-radius: 999px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(27, 107, 58, .18);
+}
+
+.btn.blue {
+    box-shadow: 0 4px 12px rgba(37, 99, 235, .18);
+}
+
+input,
+select,
+textarea {
+    border-radius: 12px;
+    transition: border-color .18s ease, box-shadow .18s ease, background .18s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: rgba(27, 107, 58, .55);
+    box-shadow: 0 0 0 3px rgba(27, 107, 58, .14);
+}
+
+@keyframes lguTileIn {
+    from {
+        opacity: 0;
+        transform: translateY(14px) scale(.97);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+#allLgus.lgu-open-anim .thumb {
+    animation: lguTileIn .38s cubic-bezier(.22, 1, .36, 1) both;
+}
+.thumb {
+    transition: transform .22s cubic-bezier(.22, 1, .36, 1), box-shadow .22s ease;
+}
+.thumb:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(15, 23, 42, .12);
+}
+
+/* ABEKa DASHBOARD & AUDIT TRAIL */
+.dash-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .55rem;
+    margin-top: .85rem;
+}
+.dash-kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0;
+}
+.dash-kpi {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    padding: 1.1rem 1.25rem;
+}
+.dash-kpi-val {
+    font-size: 1.9rem;
+    line-height: 1.15;
+    color: #1b6b3a;
+}
+.dash-head-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: .75rem;
+    margin-bottom: .75rem;
+}
+.dash-head-row h2 {
+    margin: 0;
+}
+
+.nav-dd-right {
+    left: auto;
+    right: 0;
+}
+.acct-dd .iconbtn.nav-dd-trigger {
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    border-radius: 50%;
+    background: var(--glass);
+    border: 1px solid var(--edge);
+    display: grid;
+    place-items: center;
+}
+.acct-dd .iconbtn.nav-dd-trigger:hover {
+    border-bottom: 1px solid var(--edge);
+}
+
+.abeka-chat-head-actions {
+    display: inline-flex;
+    align-items: center;
+    gap: .35rem;
+    margin-left: auto;
+}
+.abeka-chat-clear {
+    appearance: none;
+    border: 1px solid rgba(255, 255, 255, .45);
+    background: rgba(255, 255, 255, .16);
+    color: #fff;
+    font: inherit;
+    font-size: .74rem;
+    font-weight: 600;
+    padding: .25rem .55rem;
+    border-radius: 999px;
+    cursor: pointer;
+}
+.abeka-chat-clear:hover {
+    background: rgba(255, 255, 255, .28);
+}

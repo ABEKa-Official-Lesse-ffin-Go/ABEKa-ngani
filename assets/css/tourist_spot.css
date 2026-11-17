@@ -1,0 +1,36 @@
+/* Tourist Spots Recommendation */
+
+.tourist-spots-section {
+    margin-top: 1.25rem;
+}
+
+/* Keep the same three-column layout as Most Viewed Places. */
+.tourist-spots-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Make the cards fit smaller screens. */
+@media (max-width: 700px) {
+    .tourist-spots-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 420px) {
+    .tourist-spots-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* tourist spot cards clickable */
+
+.tourist-spot-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.tourist-spot-link:hover {
+    opacity: 0.9;
+}

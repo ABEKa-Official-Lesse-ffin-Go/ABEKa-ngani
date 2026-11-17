@@ -1,0 +1,2402 @@
+[
+  {
+    "category": "Verbal",
+    "q": "Choose the word closest in meaning to ABUNDANT:",
+    "choices": [
+      "Plentiful",
+      "Tiny",
+      "Fragile",
+      "Scarce"
+    ],
+    "ans": 0,
+    "exp": "Abundant means existing in large quantities; plentiful."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word closest in meaning to CANDID:",
+    "choices": [
+      "Frank",
+      "Vague",
+      "Deceitful",
+      "Secretive"
+    ],
+    "ans": 0,
+    "exp": "Candid means truthful and straightforward; frank."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word closest in meaning to DILIGENT:",
+    "choices": [
+      "Hardworking",
+      "Hesitant",
+      "Lazy",
+      "Careless"
+    ],
+    "ans": 0,
+    "exp": "Diligent means showing steady, hardworking effort."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word closest in meaning to ELOQUENT:",
+    "choices": [
+      "Silent",
+      "Articulate",
+      "Awkward",
+      "Confused"
+    ],
+    "ans": 1,
+    "exp": "Eloquent means fluent or persuasive in speaking or writing."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word closest in meaning to FRUGAL:",
+    "choices": [
+      "Wasteful",
+      "Extravagant",
+      "Reckless",
+      "Thrifty"
+    ],
+    "ans": 3,
+    "exp": "Frugal means economical with money or resources; thrifty."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word closest in meaning to GENUINE:",
+    "choices": [
+      "Fake",
+      "Authentic",
+      "Imitated",
+      "Artificial"
+    ],
+    "ans": 1,
+    "exp": "Genuine means truly what something is said to be; authentic."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word closest in meaning to HOSTILE:",
+    "choices": [
+      "Gentle",
+      "Welcoming",
+      "Unfriendly",
+      "Polite"
+    ],
+    "ans": 2,
+    "exp": "Hostile means unfriendly or antagonistic."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word closest in meaning to IMPARTIAL:",
+    "choices": [
+      "Unbiased",
+      "One-sided",
+      "Unfair",
+      "Prejudiced"
+    ],
+    "ans": 0,
+    "exp": "Impartial means treating all sides equally; unbiased."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word closest in meaning to JUBILANT:",
+    "choices": [
+      "Angry",
+      "Overjoyed",
+      "Gloomy",
+      "Mournful"
+    ],
+    "ans": 1,
+    "exp": "Jubilant means feeling or expressing great happiness."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word closest in meaning to KEEN:",
+    "choices": [
+      "Reluctant",
+      "Indifferent",
+      "Eager",
+      "Dull"
+    ],
+    "ans": 2,
+    "exp": "Keen means having or showing eagerness or enthusiasm."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word closest in meaning to LUCID:",
+    "choices": [
+      "Muddled",
+      "Clear",
+      "Obscure",
+      "Cryptic"
+    ],
+    "ans": 1,
+    "exp": "Lucid means expressed clearly and easy to understand."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word closest in meaning to METICULOUS:",
+    "choices": [
+      "Careful",
+      "Hasty",
+      "Negligent",
+      "Sloppy"
+    ],
+    "ans": 0,
+    "exp": "Meticulous means showing great attention to detail."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word closest in meaning to NOVEL:",
+    "choices": [
+      "New",
+      "Outdated",
+      "Ancient",
+      "Familiar"
+    ],
+    "ans": 0,
+    "exp": "As an adjective, novel means new or unusual."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word closest in meaning to OBSOLETE:",
+    "choices": [
+      "Fresh",
+      "Modern",
+      "Current",
+      "Outdated"
+    ],
+    "ans": 3,
+    "exp": "Obsolete means no longer in use; outdated."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word closest in meaning to PRUDENT:",
+    "choices": [
+      "Impulsive",
+      "Wise",
+      "Foolish",
+      "Reckless"
+    ],
+    "ans": 1,
+    "exp": "Prudent means acting with care and thought for the future."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word closest in meaning to RESILIENT:",
+    "choices": [
+      "Brittle",
+      "Rigid",
+      "Adaptable",
+      "Weak"
+    ],
+    "ans": 2,
+    "exp": "Resilient means able to recover quickly from difficulties."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word closest in meaning to SCRUTINIZE:",
+    "choices": [
+      "Ignore",
+      "Overlook",
+      "Examine",
+      "Glance"
+    ],
+    "ans": 2,
+    "exp": "Scrutinize means to examine or inspect closely."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word closest in meaning to TRANQUIL:",
+    "choices": [
+      "Stormy",
+      "Noisy",
+      "Peaceful",
+      "Chaotic"
+    ],
+    "ans": 2,
+    "exp": "Tranquil means free from disturbance; calm and peaceful."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word closest in meaning to VIGILANT:",
+    "choices": [
+      "Sleepy",
+      "Watchful",
+      "Carefree",
+      "Neglectful"
+    ],
+    "ans": 1,
+    "exp": "Vigilant means keeping careful watch for possible danger."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word closest in meaning to ZEALOUS:",
+    "choices": [
+      "Halfhearted",
+      "Apathetic",
+      "Passionate",
+      "Bored"
+    ],
+    "ans": 2,
+    "exp": "Zealous means having or showing great energy or enthusiasm."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word OPPOSITE in meaning to BENEVOLENT:",
+    "choices": [
+      "Generous",
+      "Helpful",
+      "Cruel",
+      "Kind"
+    ],
+    "ans": 2,
+    "exp": "Benevolent means well-meaning and kindly; its opposite is cruel."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word OPPOSITE in meaning to CONCISE:",
+    "choices": [
+      "Short",
+      "Brief",
+      "Compact",
+      "Wordy"
+    ],
+    "ans": 3,
+    "exp": "Concise means brief and clear; its opposite is wordy."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word OPPOSITE in meaning to EXPAND:",
+    "choices": [
+      "Shrink",
+      "Enlarge",
+      "Widen",
+      "Grow"
+    ],
+    "ans": 0,
+    "exp": "Expand means to become larger; its opposite is shrink."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word OPPOSITE in meaning to FLEXIBLE:",
+    "choices": [
+      "Supple",
+      "Adaptable",
+      "Bendable",
+      "Rigid"
+    ],
+    "ans": 3,
+    "exp": "Flexible means able to bend easily; its opposite is rigid."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word OPPOSITE in meaning to HARMONY:",
+    "choices": [
+      "Peace",
+      "Conflict",
+      "Unity",
+      "Agreement"
+    ],
+    "ans": 1,
+    "exp": "Harmony means agreement; its opposite is conflict."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word OPPOSITE in meaning to INCREASE:",
+    "choices": [
+      "Raise",
+      "Boost",
+      "Diminish",
+      "Multiply"
+    ],
+    "ans": 2,
+    "exp": "Increase means to grow; diminish means to become less."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word OPPOSITE in meaning to OPTIMISTIC:",
+    "choices": [
+      "Cheerful",
+      "Hopeful",
+      "Positive",
+      "Pessimistic"
+    ],
+    "ans": 3,
+    "exp": "Optimistic means hopeful; pessimistic means expecting the worst."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word OPPOSITE in meaning to PERMANENT:",
+    "choices": [
+      "Lasting",
+      "Constant",
+      "Enduring",
+      "Temporary"
+    ],
+    "ans": 3,
+    "exp": "Permanent means lasting; temporary means for a limited time."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word OPPOSITE in meaning to SCARCE:",
+    "choices": [
+      "Plentiful",
+      "Limited",
+      "Insufficient",
+      "Rare"
+    ],
+    "ans": 0,
+    "exp": "Scarce means in short supply; plentiful means abundant."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the word OPPOSITE in meaning to TRANSPARENT:",
+    "choices": [
+      "Glasslike",
+      "Clear",
+      "Opaque",
+      "See-through"
+    ],
+    "ans": 2,
+    "exp": "Transparent allows light through; opaque blocks light."
+  },
+  {
+    "category": "Verbal",
+    "q": "Neither the supervisor nor the clerks ___ present at the briefing.",
+    "choices": [
+      "were",
+      "is",
+      "was",
+      "has been"
+    ],
+    "ans": 0,
+    "exp": "With neither/nor, the verb agrees with the nearer plural noun 'clerks'."
+  },
+  {
+    "category": "Verbal",
+    "q": "Each of the applicants ___ required to submit a valid ID.",
+    "choices": [
+      "have been",
+      "is",
+      "are",
+      "were"
+    ],
+    "ans": 1,
+    "exp": "'Each' is singular and takes the singular verb 'is'."
+  },
+  {
+    "category": "Verbal",
+    "q": "The committee ___ its final decision yesterday afternoon.",
+    "choices": [
+      "announcing",
+      "announce",
+      "announced",
+      "have announced"
+    ],
+    "ans": 2,
+    "exp": "'Yesterday afternoon' requires the simple past tense 'announced'."
+  },
+  {
+    "category": "Verbal",
+    "q": "She is more experienced ___ any other candidate in the room.",
+    "choices": [
+      "than",
+      "that",
+      "then",
+      "as"
+    ],
+    "ans": 0,
+    "exp": "Comparative adjectives like 'more experienced' pair with 'than'."
+  },
+  {
+    "category": "Verbal",
+    "q": "Between you and ___, the new schedule works much better.",
+    "choices": [
+      "I",
+      "me",
+      "myself",
+      "mine"
+    ],
+    "ans": 1,
+    "exp": "After the preposition 'between', use the object pronoun 'me'."
+  },
+  {
+    "category": "Verbal",
+    "q": "The report, along with the attachments, ___ on the desk.",
+    "choices": [
+      "is",
+      "are",
+      "have been",
+      "were"
+    ],
+    "ans": 0,
+    "exp": "The subject 'The report' is singular; phrases like 'along with...' do not change number."
+  },
+  {
+    "category": "Verbal",
+    "q": "By next month, Carlo ___ at the municipal office for five years.",
+    "choices": [
+      "works",
+      "will have worked",
+      "worked",
+      "is working"
+    ],
+    "ans": 1,
+    "exp": "'By next month' + duration calls for the future perfect tense."
+  },
+  {
+    "category": "Verbal",
+    "q": "If I ___ you, I would review the guidelines before submitting.",
+    "choices": [
+      "am",
+      "was",
+      "be",
+      "were"
+    ],
+    "ans": 3,
+    "exp": "Hypothetical conditional statements use the subjunctive 'were'."
+  },
+  {
+    "category": "Verbal",
+    "q": "The barangay captain asked everyone to keep ___ surroundings clean.",
+    "choices": [
+      "their",
+      "they're",
+      "its",
+      "there"
+    ],
+    "ans": 0,
+    "exp": "'Their' is the possessive pronoun referring to everyone's surroundings."
+  },
+  {
+    "category": "Verbal",
+    "q": "He speaks both English and Kapampangan ___.",
+    "choices": [
+      "more fluent",
+      "fluent",
+      "fluency",
+      "fluently"
+    ],
+    "ans": 3,
+    "exp": "An adverb ('fluently') is needed to modify the verb 'speaks'."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the correctly spelled word:",
+    "choices": [
+      "Accomodate",
+      "Acommodate",
+      "Acomodate",
+      "Accommodate"
+    ],
+    "ans": 3,
+    "exp": "'Accommodate' has double 'c' and double 'm'."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the correctly spelled word:",
+    "choices": [
+      "Occurrance",
+      "Occurence",
+      "Ocurrence",
+      "Occurrence"
+    ],
+    "ans": 3,
+    "exp": "'Occurrence' has double 'c' and double 'r' with '-ence'."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the correctly spelled word:",
+    "choices": [
+      "Privelege",
+      "Priviledge",
+      "Privilege",
+      "Privilage"
+    ],
+    "ans": 2,
+    "exp": "'Privilege' is spelled p-r-i-v-i-l-e-g-e (no 'd')."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the correctly spelled word:",
+    "choices": [
+      "Seperete",
+      "Separete",
+      "Separate",
+      "Seperate"
+    ],
+    "ans": 2,
+    "exp": "'Separate' is spelled s-e-p-a-r-a-t-e."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the correctly spelled word:",
+    "choices": [
+      "Maintenence",
+      "Maintainance",
+      "Maintenance",
+      "Meintenance"
+    ],
+    "ans": 2,
+    "exp": "'Maintenance' uses '-ten-' rather than '-tain-'."
+  },
+  {
+    "category": "Verbal",
+    "q": "Which sentence is punctuated correctly?",
+    "choices": [
+      "We visited Guagua Bacolor and, Lubao.",
+      "We visited Guagua, Bacolor, and Lubao.",
+      "We visited, Guagua, Bacolor, and Lubao.",
+      "We, visited Guagua, Bacolor and Lubao."
+    ],
+    "ans": 1,
+    "exp": "Commas properly separate items in a series."
+  },
+  {
+    "category": "Verbal",
+    "q": "What does the idiom 'hit the nail on the head' mean?",
+    "choices": [
+      "To miss an opportunity",
+      "To work overtime",
+      "To state something exactly right",
+      "To make a loud noise"
+    ],
+    "ans": 2,
+    "exp": "It means to describe or identify something accurately."
+  },
+  {
+    "category": "Verbal",
+    "q": "What does the idiom 'burn the midnight oil' mean?",
+    "choices": [
+      "To work or study late at night",
+      "To start a fire",
+      "To wake up early",
+      "To waste fuel"
+    ],
+    "ans": 0,
+    "exp": "It means staying up late to study or work."
+  },
+  {
+    "category": "Verbal",
+    "q": "Identify the correct sentence:",
+    "choices": [
+      "The data shows a steady improving.",
+      "The data show a steady improvement.",
+      "The data showing a steady improvement.",
+      "The datas show a steady improvement."
+    ],
+    "ans": 1,
+    "exp": "'Improvement' is the proper noun form here."
+  },
+  {
+    "category": "Verbal",
+    "q": "Choose the best word to complete the sentence: The ordinance took ___ immediately.",
+    "choices": [
+      "effective",
+      "affect",
+      "effected",
+      "effect"
+    ],
+    "ans": 3,
+    "exp": "'Take effect' is the standard idiom meaning to become operative."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is 10% of 250?",
+    "choices": [
+      "50",
+      "25",
+      "15",
+      "35"
+    ],
+    "ans": 1,
+    "exp": "10% of 250 = (10/100) × 250 = 25."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is 15% of 400?",
+    "choices": [
+      "50",
+      "60",
+      "70",
+      "85"
+    ],
+    "ans": 1,
+    "exp": "15% of 400 = (15/100) × 400 = 60."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is 20% of 350?",
+    "choices": [
+      "60",
+      "70",
+      "80",
+      "95"
+    ],
+    "ans": 1,
+    "exp": "20% of 350 = (20/100) × 350 = 70."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is 25% of 480?",
+    "choices": [
+      "110",
+      "130",
+      "120",
+      "145"
+    ],
+    "ans": 2,
+    "exp": "25% of 480 = (25/100) × 480 = 120."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is 30% of 600?",
+    "choices": [
+      "180",
+      "190",
+      "205",
+      "170"
+    ],
+    "ans": 0,
+    "exp": "30% of 600 = (30/100) × 600 = 180."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is 12% of 500?",
+    "choices": [
+      "60",
+      "50",
+      "85",
+      "70"
+    ],
+    "ans": 0,
+    "exp": "12% of 500 = (12/100) × 500 = 60."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is 40% of 250?",
+    "choices": [
+      "110",
+      "100",
+      "90",
+      "125"
+    ],
+    "ans": 1,
+    "exp": "40% of 250 = (40/100) × 250 = 100."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is 5% of 800?",
+    "choices": [
+      "30",
+      "50",
+      "40",
+      "65"
+    ],
+    "ans": 2,
+    "exp": "5% of 800 = (5/100) × 800 = 40."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is 8% of 500?",
+    "choices": [
+      "65",
+      "50",
+      "40",
+      "30"
+    ],
+    "ans": 2,
+    "exp": "8% of 500 = (8/100) × 500 = 40."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is 35% of 200?",
+    "choices": [
+      "80",
+      "60",
+      "70",
+      "95"
+    ],
+    "ans": 2,
+    "exp": "35% of 200 = (35/100) × 200 = 70."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is 50% of 340?",
+    "choices": [
+      "195",
+      "160",
+      "180",
+      "170"
+    ],
+    "ans": 3,
+    "exp": "50% of 340 = (50/100) × 340 = 170."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is 75% of 120?",
+    "choices": [
+      "115",
+      "90",
+      "100",
+      "80"
+    ],
+    "ans": 1,
+    "exp": "75% of 120 = (75/100) × 120 = 90."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is 18% of 500?",
+    "choices": [
+      "80",
+      "115",
+      "100",
+      "90"
+    ],
+    "ans": 3,
+    "exp": "18% of 500 = (18/100) × 500 = 90."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is 22% of 300?",
+    "choices": [
+      "56",
+      "66",
+      "76",
+      "91"
+    ],
+    "ans": 1,
+    "exp": "22% of 300 = (22/100) × 300 = 66."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is 45% of 200?",
+    "choices": [
+      "115",
+      "80",
+      "100",
+      "90"
+    ],
+    "ans": 3,
+    "exp": "45% of 200 = (45/100) × 200 = 90."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is 60% of 150?",
+    "choices": [
+      "100",
+      "80",
+      "115",
+      "90"
+    ],
+    "ans": 3,
+    "exp": "60% of 150 = (60/100) × 150 = 90."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is 15% of 600?",
+    "choices": [
+      "90",
+      "115",
+      "100",
+      "80"
+    ],
+    "ans": 0,
+    "exp": "15% of 600 = (15/100) × 600 = 90."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is 20% of 750?",
+    "choices": [
+      "160",
+      "175",
+      "150",
+      "140"
+    ],
+    "ans": 2,
+    "exp": "20% of 750 = (20/100) × 750 = 150."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is 25% of 360?",
+    "choices": [
+      "115",
+      "80",
+      "100",
+      "90"
+    ],
+    "ans": 3,
+    "exp": "25% of 360 = (25/100) × 360 = 90."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is 30% of 900?",
+    "choices": [
+      "260",
+      "270",
+      "295",
+      "280"
+    ],
+    "ans": 1,
+    "exp": "30% of 900 = (30/100) × 900 = 270."
+  },
+  {
+    "category": "Numerical",
+    "q": "An item costs PHP 500 and is on a 20% discount. What is the sale price?",
+    "choices": [
+      "PHP 400",
+      "PHP 350",
+      "PHP 480",
+      "PHP 450"
+    ],
+    "ans": 0,
+    "exp": "20% of 500 is 100; 500 - 100 = PHP 400."
+  },
+  {
+    "category": "Numerical",
+    "q": "An item costs PHP 800 and is on a 25% discount. What is the sale price?",
+    "choices": [
+      "PHP 650",
+      "PHP 600",
+      "PHP 550",
+      "PHP 775"
+    ],
+    "ans": 1,
+    "exp": "25% of 800 is 200; 800 - 200 = PHP 600."
+  },
+  {
+    "category": "Numerical",
+    "q": "An item costs PHP 1000 and is on a 15% discount. What is the sale price?",
+    "choices": [
+      "PHP 800",
+      "PHP 985",
+      "PHP 850",
+      "PHP 900"
+    ],
+    "ans": 2,
+    "exp": "15% of 1000 is 150; 1000 - 150 = PHP 850."
+  },
+  {
+    "category": "Numerical",
+    "q": "An item costs PHP 1200 and is on a 10% discount. What is the sale price?",
+    "choices": [
+      "PHP 1080",
+      "PHP 1190",
+      "PHP 1030",
+      "PHP 1130"
+    ],
+    "ans": 0,
+    "exp": "10% of 1200 is 120; 1200 - 120 = PHP 1080."
+  },
+  {
+    "category": "Numerical",
+    "q": "An item costs PHP 1500 and is on a 20% discount. What is the sale price?",
+    "choices": [
+      "PHP 1250",
+      "PHP 1480",
+      "PHP 1150",
+      "PHP 1200"
+    ],
+    "ans": 3,
+    "exp": "20% of 1500 is 300; 1500 - 300 = PHP 1200."
+  },
+  {
+    "category": "Numerical",
+    "q": "An item costs PHP 2000 and is on a 30% discount. What is the sale price?",
+    "choices": [
+      "PHP 1350",
+      "PHP 1450",
+      "PHP 1400",
+      "PHP 1970"
+    ],
+    "ans": 2,
+    "exp": "30% of 2000 is 600; 2000 - 600 = PHP 1400."
+  },
+  {
+    "category": "Numerical",
+    "q": "An item costs PHP 600 and is on a 15% discount. What is the sale price?",
+    "choices": [
+      "PHP 460",
+      "PHP 560",
+      "PHP 585",
+      "PHP 510"
+    ],
+    "ans": 3,
+    "exp": "15% of 600 is 90; 600 - 90 = PHP 510."
+  },
+  {
+    "category": "Numerical",
+    "q": "An item costs PHP 400 and is on a 25% discount. What is the sale price?",
+    "choices": [
+      "PHP 300",
+      "PHP 350",
+      "PHP 375",
+      "PHP 250"
+    ],
+    "ans": 0,
+    "exp": "25% of 400 is 100; 400 - 100 = PHP 300."
+  },
+  {
+    "category": "Numerical",
+    "q": "An item costs PHP 900 and is on a 10% discount. What is the sale price?",
+    "choices": [
+      "PHP 890",
+      "PHP 760",
+      "PHP 860",
+      "PHP 810"
+    ],
+    "ans": 3,
+    "exp": "10% of 900 is 90; 900 - 90 = PHP 810."
+  },
+  {
+    "category": "Numerical",
+    "q": "An item costs PHP 1600 and is on a 25% discount. What is the sale price?",
+    "choices": [
+      "PHP 1575",
+      "PHP 1250",
+      "PHP 1200",
+      "PHP 1150"
+    ],
+    "ans": 2,
+    "exp": "25% of 1600 is 400; 1600 - 400 = PHP 1200."
+  },
+  {
+    "category": "Numerical",
+    "q": "An item costs PHP 2500 and is on a 20% discount. What is the sale price?",
+    "choices": [
+      "PHP 2480",
+      "PHP 2050",
+      "PHP 2000",
+      "PHP 1950"
+    ],
+    "ans": 2,
+    "exp": "20% of 2500 is 500; 2500 - 500 = PHP 2000."
+  },
+  {
+    "category": "Numerical",
+    "q": "An item costs PHP 700 and is on a 10% discount. What is the sale price?",
+    "choices": [
+      "PHP 680",
+      "PHP 580",
+      "PHP 690",
+      "PHP 630"
+    ],
+    "ans": 3,
+    "exp": "10% of 700 is 70; 700 - 70 = PHP 630."
+  },
+  {
+    "category": "Numerical",
+    "q": "An item costs PHP 1400 and is on a 15% discount. What is the sale price?",
+    "choices": [
+      "PHP 1240",
+      "PHP 1190",
+      "PHP 1140",
+      "PHP 1385"
+    ],
+    "ans": 1,
+    "exp": "15% of 1400 is 210; 1400 - 210 = PHP 1190."
+  },
+  {
+    "category": "Numerical",
+    "q": "An item costs PHP 3000 and is on a 10% discount. What is the sale price?",
+    "choices": [
+      "PHP 2650",
+      "PHP 2750",
+      "PHP 2990",
+      "PHP 2700"
+    ],
+    "ans": 3,
+    "exp": "10% of 3000 is 300; 3000 - 300 = PHP 2700."
+  },
+  {
+    "category": "Numerical",
+    "q": "An item costs PHP 450 and is on a 20% discount. What is the sale price?",
+    "choices": [
+      "PHP 310",
+      "PHP 430",
+      "PHP 360",
+      "PHP 410"
+    ],
+    "ans": 2,
+    "exp": "20% of 450 is 90; 450 - 90 = PHP 360."
+  },
+  {
+    "category": "Numerical",
+    "q": "A team packs 120 relief bags in 3 hours. At the same rate, how many bags can they pack in 5 hours?",
+    "choices": [
+      "180",
+      "220",
+      "240",
+      "200"
+    ],
+    "ans": 3,
+    "exp": "120 / 3 = 40 bags/hour; 40 × 5 = 200 bags."
+  },
+  {
+    "category": "Numerical",
+    "q": "A jeepney travels 180 km in 3 hours. What is its average speed?",
+    "choices": [
+      "60 km/h",
+      "50 km/h",
+      "70 km/h",
+      "65 km/h"
+    ],
+    "ans": 0,
+    "exp": "Speed = Distance / Time = 180 / 3 = 60 km/h."
+  },
+  {
+    "category": "Numerical",
+    "q": "If 4 notebooks cost PHP 140, how much do 7 notebooks cost?",
+    "choices": [
+      "PHP 260",
+      "PHP 245",
+      "PHP 210",
+      "PHP 230"
+    ],
+    "ans": 1,
+    "exp": "140 / 4 = PHP 35 each; 35 × 7 = PHP 245."
+  },
+  {
+    "category": "Numerical",
+    "q": "Solve for x: 3x + 7 = 28",
+    "choices": [
+      "8",
+      "7",
+      "9",
+      "6"
+    ],
+    "ans": 1,
+    "exp": "3x = 21, so x = 7."
+  },
+  {
+    "category": "Numerical",
+    "q": "Solve for x: 5x - 10 = 35",
+    "choices": [
+      "9",
+      "7",
+      "8",
+      "10"
+    ],
+    "ans": 0,
+    "exp": "5x = 45, so x = 9."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is the average of 82, 86, 90, and 94?",
+    "choices": [
+      "87",
+      "86",
+      "89",
+      "88"
+    ],
+    "ans": 3,
+    "exp": "(82 + 86 + 90 + 94) / 4 = 352 / 4 = 88."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is the average of 75, 80, and 85?",
+    "choices": [
+      "80",
+      "82",
+      "85",
+      "78"
+    ],
+    "ans": 0,
+    "exp": "(75 + 80 + 85) / 3 = 240 / 3 = 80."
+  },
+  {
+    "category": "Numerical",
+    "q": "A rectangle has length 14 cm and width 8 cm. What is its perimeter?",
+    "choices": [
+      "112 cm",
+      "44 cm",
+      "22 cm",
+      "36 cm"
+    ],
+    "ans": 1,
+    "exp": "Perimeter = 2(14 + 8) = 44 cm."
+  },
+  {
+    "category": "Numerical",
+    "q": "A rectangle has length 12 m and width 5 m. What is its area?",
+    "choices": [
+      "50 sq m",
+      "34 sq m",
+      "60 sq m",
+      "72 sq m"
+    ],
+    "ans": 2,
+    "exp": "Area = 12 × 5 = 60 sq m."
+  },
+  {
+    "category": "Numerical",
+    "q": "Convert 2.5 hours into minutes.",
+    "choices": [
+      "120 minutes",
+      "160 minutes",
+      "135 minutes",
+      "150 minutes"
+    ],
+    "ans": 3,
+    "exp": "2.5 × 60 = 150 minutes."
+  },
+  {
+    "category": "Numerical",
+    "q": "If 3/4 of a number is 36, what is the number?",
+    "choices": [
+      "27",
+      "42",
+      "48",
+      "54"
+    ],
+    "ans": 2,
+    "exp": "36 ÷ (3/4) = 36 × 4 / 3 = 48."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is 2/5 + 1/5?",
+    "choices": [
+      "3/10",
+      "2/10",
+      "4/5",
+      "3/5"
+    ],
+    "ans": 3,
+    "exp": "Same denominator: (2 + 1)/5 = 3/5."
+  },
+  {
+    "category": "Numerical",
+    "q": "A store sold 45 items on Monday and 63 items on Tuesday. What is the percentage increase?",
+    "choices": [
+      "18%",
+      "28%",
+      "45%",
+      "40%"
+    ],
+    "ans": 3,
+    "exp": "Increase = 18; (18 / 45) × 100 = 40%."
+  },
+  {
+    "category": "Numerical",
+    "q": "If 6 workers can finish a task in 4 days, how many days will 8 workers take at the same rate?",
+    "choices": [
+      "5 days",
+      "2 days",
+      "4 days",
+      "3 days"
+    ],
+    "ans": 3,
+    "exp": "Total work = 6 × 4 = 24 worker-days; 24 / 8 = 3 days."
+  },
+  {
+    "category": "Numerical",
+    "q": "What is the greatest common factor (GCF) of 24 and 36?",
+    "choices": [
+      "12",
+      "6",
+      "18",
+      "8"
+    ],
+    "ans": 0,
+    "exp": "The largest number that divides both 24 and 36 is 12."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: 2, 4, 8, 16, ___",
+    "choices": [
+      "24",
+      "28",
+      "36",
+      "32"
+    ],
+    "ans": 3,
+    "exp": "Each term doubles (16 × 2 = 32)."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: 3, 6, 12, 24, ___",
+    "choices": [
+      "42",
+      "30",
+      "36",
+      "48"
+    ],
+    "ans": 3,
+    "exp": "Each term doubles (24 × 2 = 48)."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: 5, 10, 15, 20, ___",
+    "choices": [
+      "25",
+      "22",
+      "24",
+      "30"
+    ],
+    "ans": 0,
+    "exp": "Add 5 each step (20 + 5 = 25)."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: 1, 4, 9, 16, 25, ___",
+    "choices": [
+      "32",
+      "30",
+      "49",
+      "36"
+    ],
+    "ans": 3,
+    "exp": "Squares of consecutive integers: 6² = 36."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: 2, 5, 10, 17, 26, ___",
+    "choices": [
+      "33",
+      "35",
+      "37",
+      "39"
+    ],
+    "ans": 2,
+    "exp": "Differences are +3, +5, +7, +9, +11 (26 + 11 = 37)."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: 100, 92, 84, 76, ___",
+    "choices": [
+      "70",
+      "68",
+      "64",
+      "72"
+    ],
+    "ans": 1,
+    "exp": "Subtract 8 each step (76 - 8 = 68)."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: 81, 27, 9, 3, ___",
+    "choices": [
+      "2",
+      "0",
+      "6",
+      "1"
+    ],
+    "ans": 3,
+    "exp": "Divide by 3 each step (3 ÷ 3 = 1)."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: 1, 1, 2, 3, 5, 8, ___",
+    "choices": [
+      "12",
+      "13",
+      "11",
+      "10"
+    ],
+    "ans": 1,
+    "exp": "Fibonacci sequence: 5 + 8 = 13."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: 4, 7, 11, 16, 22, ___",
+    "choices": [
+      "26",
+      "29",
+      "30",
+      "28"
+    ],
+    "ans": 1,
+    "exp": "Differences increase by 1: +3, +4, +5, +6, +7 (22 + 7 = 29)."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: 10, 20, 18, 36, 34, ___",
+    "choices": [
+      "52",
+      "32",
+      "70",
+      "68"
+    ],
+    "ans": 3,
+    "exp": "Pattern alternates ×2 and -2: 34 × 2 = 68."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: A, C, E, G, ___",
+    "choices": [
+      "J",
+      "H",
+      "I",
+      "K"
+    ],
+    "ans": 2,
+    "exp": "Skip one letter each time (A, C, E, G, I)."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: Z, X, V, T, ___",
+    "choices": [
+      "S",
+      "R",
+      "P",
+      "Q"
+    ],
+    "ans": 1,
+    "exp": "Move backward by 2 letters each step."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: AB, CD, EF, GH, ___",
+    "choices": [
+      "HI",
+      "IJ",
+      "JK",
+      "KL"
+    ],
+    "ans": 1,
+    "exp": "Consecutive letter pairs."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: B, D, G, K, P, ___",
+    "choices": [
+      "U",
+      "V",
+      "W",
+      "T"
+    ],
+    "ans": 1,
+    "exp": "Steps are +2, +3, +4, +5, +6 (P + 6 = V)."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: 7, 14, 28, 56, ___",
+    "choices": [
+      "112",
+      "120",
+      "84",
+      "96"
+    ],
+    "ans": 0,
+    "exp": "Multiply by 2 each step (56 × 2 = 112)."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: 90, 85, 75, 60, ___",
+    "choices": [
+      "50",
+      "35",
+      "45",
+      "40"
+    ],
+    "ans": 3,
+    "exp": "Subtract 5, 10, 15, 20 (60 - 20 = 40)."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: 3, 9, 27, 81, ___",
+    "choices": [
+      "324",
+      "243",
+      "216",
+      "162"
+    ],
+    "ans": 1,
+    "exp": "Multiply by 3 each step (81 × 3 = 243)."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: 12, 15, 19, 24, 30, ___",
+    "choices": [
+      "35",
+      "38",
+      "37",
+      "36"
+    ],
+    "ans": 2,
+    "exp": "Add +3, +4, +5, +6, +7 (30 + 7 = 37)."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: 64, 32, 16, 8, ___",
+    "choices": [
+      "2",
+      "12",
+      "4",
+      "6"
+    ],
+    "ans": 2,
+    "exp": "Divide by 2 each step (8 ÷ 2 = 4)."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: 1, 3, 7, 15, 31, ___",
+    "choices": [
+      "47",
+      "63",
+      "61",
+      "55"
+    ],
+    "ans": 1,
+    "exp": "Multiply by 2 and add 1 (31 × 2 + 1 = 63)."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: M, T, W, T, F, S, ___",
+    "choices": [
+      "W",
+      "S",
+      "T",
+      "M"
+    ],
+    "ans": 1,
+    "exp": "Days of the week: Monday through Sunday."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: J, F, M, A, M, ___",
+    "choices": [
+      "S",
+      "J",
+      "O",
+      "A"
+    ],
+    "ans": 1,
+    "exp": "Months of the year: January through June."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: 2, 6, 12, 20, 30, ___",
+    "choices": [
+      "40",
+      "38",
+      "44",
+      "42"
+    ],
+    "ans": 3,
+    "exp": "Add +4, +6, +8, +10, +12 (30 + 12 = 42)."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: 50, 45, 40, 35, ___",
+    "choices": [
+      "30",
+      "32",
+      "25",
+      "28"
+    ],
+    "ans": 0,
+    "exp": "Subtract 5 each step."
+  },
+  {
+    "category": "Logical",
+    "q": "Find the next term in the sequence: 11, 22, 33, 44, ___",
+    "choices": [
+      "60",
+      "50",
+      "66",
+      "55"
+    ],
+    "ans": 3,
+    "exp": "Add 11 each step."
+  },
+  {
+    "category": "Logical",
+    "q": "DOCTOR : HOSPITAL :: TEACHER : ___",
+    "choices": [
+      "Market",
+      "Factory",
+      "School",
+      "Court"
+    ],
+    "ans": 2,
+    "exp": "A doctor works in a hospital; a teacher works in a school."
+  },
+  {
+    "category": "Logical",
+    "q": "BOOK : READ :: SONG : ___",
+    "choices": [
+      "Write",
+      "Paint",
+      "Listen",
+      "Cook"
+    ],
+    "ans": 2,
+    "exp": "You read a book; you listen to a song."
+  },
+  {
+    "category": "Logical",
+    "q": "PEN : WRITE :: SCISSORS : ___",
+    "choices": [
+      "Cut",
+      "Draw",
+      "Glue",
+      "Erase"
+    ],
+    "ans": 0,
+    "exp": "A pen is used to write; scissors are used to cut."
+  },
+  {
+    "category": "Logical",
+    "q": "THERMOMETER : TEMPERATURE :: CLOCK : ___",
+    "choices": [
+      "Distance",
+      "Time",
+      "Speed",
+      "Weight"
+    ],
+    "ans": 1,
+    "exp": "A thermometer measures temperature; a clock measures time."
+  },
+  {
+    "category": "Logical",
+    "q": "FISH : WATER :: BIRD : ___",
+    "choices": [
+      "Fire",
+      "Rock",
+      "Air",
+      "Soil"
+    ],
+    "ans": 2,
+    "exp": "Fish live/move in water; birds fly in air."
+  },
+  {
+    "category": "Logical",
+    "q": "CHAPTER : BOOK :: SCENE : ___",
+    "choices": [
+      "Poem",
+      "Play",
+      "Painting",
+      "Song"
+    ],
+    "ans": 1,
+    "exp": "A chapter is part of a book; a scene is part of a play."
+  },
+  {
+    "category": "Logical",
+    "q": "HUNGER : EAT :: THIRST : ___",
+    "choices": [
+      "Run",
+      "Sleep",
+      "Talk",
+      "Drink"
+    ],
+    "ans": 3,
+    "exp": "Eating satisfies hunger; drinking satisfies thirst."
+  },
+  {
+    "category": "Logical",
+    "q": "SEED : TREE :: EGG : ___",
+    "choices": [
+      "Nest",
+      "Branch",
+      "Bird",
+      "Leaf"
+    ],
+    "ans": 2,
+    "exp": "A tree grows from a seed; a bird hatches from an egg."
+  },
+  {
+    "category": "Logical",
+    "q": "PILOT : AIRPLANE :: CAPTAIN : ___",
+    "choices": [
+      "Bus",
+      "Ship",
+      "Bicycle",
+      "Train"
+    ],
+    "ans": 1,
+    "exp": "A pilot operates an airplane; a captain commands a ship."
+  },
+  {
+    "category": "Logical",
+    "q": "EYE : SEE :: EAR : ___",
+    "choices": [
+      "Touch",
+      "Hear",
+      "Smell",
+      "Taste"
+    ],
+    "ans": 1,
+    "exp": "The eye is for seeing; the ear is for hearing."
+  },
+  {
+    "category": "Logical",
+    "q": "COLD : ICE :: HOT : ___",
+    "choices": [
+      "Snow",
+      "Fire",
+      "Wind",
+      "Rain"
+    ],
+    "ans": 1,
+    "exp": "Ice is associated with cold; fire is associated with hot."
+  },
+  {
+    "category": "Logical",
+    "q": "BARK : DOG :: MEOW : ___",
+    "choices": [
+      "Cat",
+      "Horse",
+      "Cow",
+      "Duck"
+    ],
+    "ans": 0,
+    "exp": "A dog barks; a cat meows."
+  },
+  {
+    "category": "Logical",
+    "q": "KEY : LOCK :: PASSWORD : ___",
+    "choices": [
+      "Keyboard",
+      "Monitor",
+      "Account",
+      "Printer"
+    ],
+    "ans": 2,
+    "exp": "A key opens a lock; a password unlocks an account."
+  },
+  {
+    "category": "Logical",
+    "q": "MORNING : SUNRISE :: EVENING : ___",
+    "choices": [
+      "Dawn",
+      "Noon",
+      "Sunset",
+      "Midnight"
+    ],
+    "ans": 2,
+    "exp": "Sunrise happens in the morning; sunset happens in the evening."
+  },
+  {
+    "category": "Logical",
+    "q": "GLOVE : HAND :: SHOE : ___",
+    "choices": [
+      "Head",
+      "Arm",
+      "Waist",
+      "Foot"
+    ],
+    "ans": 3,
+    "exp": "A glove is worn on the hand; a shoe is worn on the foot."
+  },
+  {
+    "category": "Logical",
+    "q": "All Kapampangans are Filipinos. Maria is a Kapampangan. Therefore:",
+    "choices": [
+      "Maria is not a Filipino.",
+      "All Filipinos are Kapampangans.",
+      "Cannot be determined.",
+      "Maria is a Filipino."
+    ],
+    "ans": 3,
+    "exp": "By syllogism, Maria belongs to the subset of Filipinos."
+  },
+  {
+    "category": "Logical",
+    "q": "All public servants must uphold integrity. Juan is a public servant. Therefore:",
+    "choices": [
+      "Juan is not a public servant.",
+      "Integrity is optional.",
+      "Only Juan upholds integrity.",
+      "Juan must uphold integrity."
+    ],
+    "ans": 3,
+    "exp": "Universal premise applies to Juan."
+  },
+  {
+    "category": "Logical",
+    "q": "If it rains, the outdoor event is postponed. It rained today. Therefore:",
+    "choices": [
+      "Nobody attended.",
+      "The event was held outdoors.",
+      "The outdoor event is postponed.",
+      "It did not rain."
+    ],
+    "ans": 2,
+    "exp": "Modus ponens: P -> Q, P is true, therefore Q is true."
+  },
+  {
+    "category": "Logical",
+    "q": "No reptiles have fur. A snake is a reptile. Therefore:",
+    "choices": [
+      "Snakes are mammals.",
+      "A snake does not have fur.",
+      "Some snakes have fur.",
+      "All fur animals are reptiles."
+    ],
+    "ans": 1,
+    "exp": "Since no reptiles have fur, snakes cannot have fur."
+  },
+  {
+    "category": "Logical",
+    "q": "Ana is taller than Ben. Ben is taller than Carlo. Who is the shortest?",
+    "choices": [
+      "Carlo",
+      "Ben",
+      "Ana",
+      "Cannot be determined"
+    ],
+    "ans": 0,
+    "exp": "Ana > Ben > Carlo, so Carlo is shortest."
+  },
+  {
+    "category": "Logical",
+    "q": "In a line, Paolo is 4th from the front and 4th from the back. How many people are in the line?",
+    "choices": [
+      "7",
+      "8",
+      "9",
+      "6"
+    ],
+    "ans": 0,
+    "exp": "3 ahead + Paolo + 3 behind = 7."
+  },
+  {
+    "category": "Logical",
+    "q": "Which word does NOT belong with the others?",
+    "choices": [
+      "Mango",
+      "Apple",
+      "Banana",
+      "Hammer"
+    ],
+    "ans": 3,
+    "exp": "Apple, banana, and mango are fruits; hammer is a tool."
+  },
+  {
+    "category": "Logical",
+    "q": "Which word does NOT belong with the others?",
+    "choices": [
+      "Circle",
+      "Rectangle",
+      "Triangle",
+      "Red"
+    ],
+    "ans": 1,
+    "exp": "Triangle, circle, and rectangle are shapes; red is a color."
+  },
+  {
+    "category": "Logical",
+    "q": "Which name comes first alphabetically?",
+    "choices": [
+      "De Guzman, Leo",
+      "Dela Cruz, Ana",
+      "De Leon, Marco",
+      "Del Rosario, Bea"
+    ],
+    "ans": 0,
+    "exp": "De G comes before De L, Del R, and Dela."
+  },
+  {
+    "category": "Logical",
+    "q": "Which number is the odd one out?",
+    "choices": [
+      "15",
+      "2",
+      "8",
+      "4"
+    ],
+    "ans": 0,
+    "exp": "2, 4, and 8 are even powers of 2; 15 is odd."
+  },
+  {
+    "category": "General Information",
+    "q": "What is the supreme law of the Republic of the Philippines?",
+    "choices": [
+      "Civil Code",
+      "1987 Philippine Constitution",
+      "Revised Penal Code",
+      "Local Government Code"
+    ],
+    "ans": 1,
+    "exp": "The 1987 Constitution is the fundamental and supreme law of the Philippines."
+  },
+  {
+    "category": "General Information",
+    "q": "How long is the term of a Philippine Senator under the 1987 Constitution?",
+    "choices": [
+      "6 years",
+      "3 years",
+      "4 years",
+      "8 years"
+    ],
+    "ans": 0,
+    "exp": "Article VI, Section 4 sets a Senator's term at 6 years."
+  },
+  {
+    "category": "General Information",
+    "q": "How long is the term of the President of the Philippines?",
+    "choices": [
+      "8 years",
+      "4 years",
+      "5 years",
+      "6 years"
+    ],
+    "ans": 3,
+    "exp": "Article VII, Section 4 sets the presidential term at 6 years without re-election."
+  },
+  {
+    "category": "General Information",
+    "q": "How many Senators compose the Philippine Senate?",
+    "choices": [
+      "18",
+      "24",
+      "12",
+      "36"
+    ],
+    "ans": 1,
+    "exp": "Article VI, Section 2 states the Senate shall be composed of 24 Senators."
+  },
+  {
+    "category": "General Information",
+    "q": "Republic Act No. 6713 is also known as:",
+    "choices": [
+      "Code of Conduct and Ethical Standards for Public Officials and Employees",
+      "Data Privacy Act",
+      "Anti-Red Tape Act",
+      "Local Government Code"
+    ],
+    "ans": 0,
+    "exp": "RA 6713 governs ethical standards in Philippine public service."
+  },
+  {
+    "category": "General Information",
+    "q": "Under RA 6713, public officials must act on letters and requests within how many working days?",
+    "choices": [
+      "30 working days",
+      "60 working days",
+      "5 working days",
+      "15 working days"
+    ],
+    "ans": 3,
+    "exp": "Section 5(a) of RA 6713 requires action within 15 working days."
+  },
+  {
+    "category": "General Information",
+    "q": "What does SALN stand for?",
+    "choices": [
+      "Statement of Assets, Liabilities, and Net Worth",
+      "Statement of Account and Loan Notes",
+      "Summary of Annual Local Needs",
+      "Service Assessment and Leave Notice"
+    ],
+    "ans": 0,
+    "exp": "Public officials file a SALN annually under RA 6713."
+  },
+  {
+    "category": "General Information",
+    "q": "Which agency administers the Philippine Civil Service Examination?",
+    "choices": [
+      "Department of the Interior and Local Government",
+      "Civil Service Commission (CSC)",
+      "Department of Labor and Employment",
+      "Commission on Higher Education"
+    ],
+    "ans": 1,
+    "exp": "The CSC is the central personnel agency of the Philippine government."
+  },
+  {
+    "category": "General Information",
+    "q": "What is the minimum voting age in the Philippines under the 1987 Constitution?",
+    "choices": [
+      "20 years old",
+      "16 years old",
+      "21 years old",
+      "18 years old"
+    ],
+    "ans": 3,
+    "exp": "Article V, Section 1 grants suffrage to citizens at least 18 years old."
+  },
+  {
+    "category": "General Information",
+    "q": "Which branch of government interprets the laws?",
+    "choices": [
+      "Executive branch",
+      "Constitutional Commission",
+      "Legislative branch",
+      "Judicial branch"
+    ],
+    "ans": 3,
+    "exp": "Judicial power is vested in the Supreme Court and lower courts."
+  },
+  {
+    "category": "General Information",
+    "q": "Which branch of government makes the laws?",
+    "choices": [
+      "Judicial branch",
+      "Electoral Tribunal",
+      "Legislative branch",
+      "Executive branch"
+    ],
+    "ans": 2,
+    "exp": "Legislative power is vested in the Congress of the Philippines."
+  },
+  {
+    "category": "General Information",
+    "q": "Which branch of government enforces the laws?",
+    "choices": [
+      "Legislative branch",
+      "Judicial branch",
+      "Executive branch",
+      "Ombudsman"
+    ],
+    "ans": 2,
+    "exp": "Executive power is vested in the President of the Philippines."
+  },
+  {
+    "category": "General Information",
+    "q": "What is the capital of the Province of Pampanga?",
+    "choices": [
+      "City of San Fernando",
+      "Angeles City",
+      "Mabalacat City",
+      "Guagua"
+    ],
+    "ans": 0,
+    "exp": "The City of San Fernando is the provincial capital of Pampanga."
+  },
+  {
+    "category": "General Information",
+    "q": "What is the national language of the Philippines under Article XIV, Section 6?",
+    "choices": [
+      "Filipino",
+      "English",
+      "Tagalog",
+      "Cebuano"
+    ],
+    "ans": 0,
+    "exp": "Article XIV, Section 6 states the national language is Filipino."
+  },
+  {
+    "category": "General Information",
+    "q": "Which Philippine law protects personal data and privacy?",
+    "choices": [
+      "Republic Act No. 6713",
+      "Republic Act No. 10173 (Data Privacy Act of 2012)",
+      "Republic Act No. 7160",
+      "Republic Act No. 9003"
+    ],
+    "ans": 1,
+    "exp": "RA 10173 is the Data Privacy Act of 2012."
+  },
+  {
+    "category": "General Information",
+    "q": "Republic Act No. 9003 is known as the:",
+    "choices": [
+      "Ecological Solid Waste Management Act of 2000",
+      "Clean Water Act",
+      "Clean Air Act",
+      "Disaster Risk Reduction Act"
+    ],
+    "ans": 0,
+    "exp": "RA 9003 governs solid waste management in the Philippines."
+  },
+  {
+    "category": "General Information",
+    "q": "Republic Act No. 8749 is known as the:",
+    "choices": [
+      "Clean Water Act",
+      "Data Privacy Act",
+      "Solid Waste Management Act",
+      "Philippine Clean Air Act of 1999"
+    ],
+    "ans": 3,
+    "exp": "RA 8749 is the Philippine Clean Air Act."
+  },
+  {
+    "category": "General Information",
+    "q": "Republic Act No. 9275 is known as the:",
+    "choices": [
+      "Climate Change Act",
+      "Mining Act",
+      "Philippine Clean Water Act of 2004",
+      "Clean Air Act"
+    ],
+    "ans": 2,
+    "exp": "RA 9275 protects the country's water bodies from pollution."
+  },
+  {
+    "category": "General Information",
+    "q": "Republic Act No. 10121 is known as the:",
+    "choices": [
+      "Anti-Graft Act",
+      "Local Government Code",
+      "Philippine Disaster Risk Reduction and Management Act of 2010",
+      "Labor Code"
+    ],
+    "ans": 2,
+    "exp": "RA 10121 established the NDRRMC and local DRRMOs."
+  },
+  {
+    "category": "General Information",
+    "q": "What does NDRRMC stand for?",
+    "choices": [
+      "National Development and Relief Management Center",
+      "National Defense and Rescue Monitoring Council",
+      "National Data and Risk Management Committee",
+      "National Disaster Risk Reduction and Management Council"
+    ],
+    "ans": 3,
+    "exp": "NDRRMC coordinates disaster preparedness and response."
+  },
+  {
+    "category": "General Information",
+    "q": "What is the national emergency hotline number in the Philippines?",
+    "choices": [
+      "143",
+      "911",
+      "8888",
+      "117"
+    ],
+    "ans": 1,
+    "exp": "911 is the national emergency hotline; 8888 is the citizens' complaint hotline."
+  },
+  {
+    "category": "General Information",
+    "q": "Which hotline is the Philippine Citizens' Complaint Center?",
+    "choices": [
+      "8888",
+      "911",
+      "117",
+      "122"
+    ],
+    "ans": 0,
+    "exp": "8888 receives public complaints on government services."
+  },
+  {
+    "category": "General Information",
+    "q": "Which Republic Act is the Local Government Code of 1991?",
+    "choices": [
+      "Republic Act No. 9184",
+      "Republic Act No. 7160",
+      "Republic Act No. 6713",
+      "Republic Act No. 11032"
+    ],
+    "ans": 1,
+    "exp": "RA 7160 is the Local Government Code of 1991."
+  },
+  {
+    "category": "General Information",
+    "q": "Which law is the Ease of Doing Business and Efficient Government Service Delivery Act?",
+    "choices": [
+      "Republic Act No. 6713",
+      "Republic Act No. 11032",
+      "Republic Act No. 9003",
+      "Republic Act No. 10173"
+    ],
+    "ans": 1,
+    "exp": "RA 11032 amends the Anti-Red Tape Act of 2007."
+  },
+  {
+    "category": "General Information",
+    "q": "Under the 1987 Constitution, a Member of the House of Representatives serves a term of:",
+    "choices": [
+      "3 years",
+      "5 years",
+      "6 years",
+      "4 years"
+    ],
+    "ans": 0,
+    "exp": "Representatives serve 3-year terms (max 3 consecutive terms)."
+  },
+  {
+    "category": "General Information",
+    "q": "Which constitutional body audits government revenues and expenditures?",
+    "choices": [
+      "Office of the Ombudsman",
+      "Commission on Elections (COMELEC)",
+      "Civil Service Commission (CSC)",
+      "Commission on Audit (COA)"
+    ],
+    "ans": 3,
+    "exp": "COA examines and audits government accounts."
+  },
+  {
+    "category": "General Information",
+    "q": "Which constitutional body enforces and administers election laws?",
+    "choices": [
+      "Commission on Audit (COA)",
+      "Commission on Human Rights (CHR)",
+      "Commission on Elections (COMELEC)",
+      "Civil Service Commission (CSC)"
+    ],
+    "ans": 2,
+    "exp": "COMELEC administers all elections and plebiscites."
+  },
+  {
+    "category": "General Information",
+    "q": "Which office investigates complaints against public officials for graft and corruption?",
+    "choices": [
+      "Department of Justice",
+      "Solicitor General",
+      "Bureau of Internal Revenue",
+      "Office of the Ombudsman"
+    ],
+    "ans": 3,
+    "exp": "The Ombudsman acts as the protector of the people against erring officials."
+  },
+  {
+    "category": "General Information",
+    "q": "What is the highest court in the Philippines?",
+    "choices": [
+      "Supreme Court",
+      "Regional Trial Court",
+      "Court of Appeals",
+      "Sandiganbayan"
+    ],
+    "ans": 0,
+    "exp": "The Supreme Court is the court of last resort."
+  },
+  {
+    "category": "General Information",
+    "q": "Which special court handles graft and corruption cases involving public officials?",
+    "choices": [
+      "Metropolitan Trial Court",
+      "Sandiganbayan",
+      "Court of Tax Appeals",
+      "Shari'a District Court"
+    ],
+    "ans": 1,
+    "exp": "The Sandiganbayan is the anti-graft court."
+  },
+  {
+    "category": "General Information",
+    "q": "Under RA 6713, 'Commitment to Public Interest' means:",
+    "choices": [
+      "Accepting gifts for service",
+      "Upholding public interest over personal interest",
+      "Prioritizing personal business",
+      "Delaying public requests"
+    ],
+    "ans": 1,
+    "exp": "Public officials must always put public interest first."
+  },
+  {
+    "category": "General Information",
+    "q": "Under RA 6713, 'Political Neutrality' means:",
+    "choices": [
+      "Refusing opposition citizens",
+      "Serving only political allies",
+      "Campaigning during office hours",
+      "Providing service to everyone regardless of party affiliation"
+    ],
+    "ans": 3,
+    "exp": "Civil servants must serve all citizens fairly without partisan bias."
+  },
+  {
+    "category": "General Information",
+    "q": "Which principle states that a public office is a public trust?",
+    "choices": [
+      "Eminent Domain",
+      "Separation of Church and State",
+      "Academic Freedom",
+      "Accountability of Public Officers (Article XI)"
+    ],
+    "ans": 3,
+    "exp": "Article XI, Section 1 declares public office is a public trust."
+  },
+  {
+    "category": "General Information",
+    "q": "What is the Bill of Rights found in the 1987 Philippine Constitution?",
+    "choices": [
+      "Article II",
+      "Article I",
+      "Article IV",
+      "Article III"
+    ],
+    "ans": 3,
+    "exp": "Article III enumerates the Bill of Rights."
+  },
+  {
+    "category": "General Information",
+    "q": "Which right protects a person from unreasonable searches and seizures?",
+    "choices": [
+      "Right to form unions",
+      "Right to travel",
+      "Right to bail",
+      "Right to privacy and security against unreasonable searches"
+    ],
+    "ans": 3,
+    "exp": "Article III, Section 2 protects against unreasonable searches and seizures."
+  },
+  {
+    "category": "General Information",
+    "q": "In the Philippine flag, what does the white triangle symbolize?",
+    "choices": [
+      "Equality and fraternity (Katipunan)",
+      "Three island groups",
+      "Courage and patriotism",
+      "Peace and justice"
+    ],
+    "ans": 0,
+    "exp": "The white equilateral triangle represents equality and fraternity."
+  },
+  {
+    "category": "General Information",
+    "q": "What do the three stars on the Philippine flag represent?",
+    "choices": [
+      "Three national heroes",
+      "Three branches of government",
+      "Luzon, Visayas, and Mindanao",
+      "Three centuries of history"
+    ],
+    "ans": 2,
+    "exp": "The three stars symbolize the three main geographical divisions."
+  },
+  {
+    "category": "General Information",
+    "q": "What do the eight rays of the sun on the Philippine flag represent?",
+    "choices": [
+      "Eight virtues",
+      "Eight regions",
+      "Eight major dialects",
+      "The first eight provinces that revolted against Spain"
+    ],
+    "ans": 3,
+    "exp": "Pampanga is one of the eight provinces represented by the sun's rays."
+  },
+  {
+    "category": "General Information",
+    "q": "Which region is Pampanga part of?",
+    "choices": [
+      "Region III (Central Luzon)",
+      "NCR",
+      "Region I (Ilocos)",
+      "Region IV-A (CALABARZON)"
+    ],
+    "ans": 0,
+    "exp": "Pampanga is in Region III, Central Luzon."
+  },
+  {
+    "category": "General Information",
+    "q": "How many legislative districts does the Province of Pampanga have (excluding Angeles City as an HUC, or with it)?",
+    "choices": [
+      "2 districts",
+      "4 districts",
+      "5 districts",
+      "3 districts"
+    ],
+    "ans": 1,
+    "exp": "Pampanga has 4 congressional districts."
+  },
+  {
+    "category": "General Information",
+    "q": "What is the traditional Kapampangan writing system?",
+    "choices": [
+      "Buhid",
+      "Kulitan",
+      "Baybayin",
+      "Hanunoo"
+    ],
+    "ans": 1,
+    "exp": "Kulitan is the indigenous script of the Kapampangan people."
+  },
+  {
+    "category": "General Information",
+    "q": "Which greenhouse gas is the primary driver of human-caused global warming?",
+    "choices": [
+      "Oxygen",
+      "Carbon dioxide (CO2)",
+      "Nitrogen",
+      "Argon"
+    ],
+    "ans": 1,
+    "exp": "Carbon dioxide from burning fossil fuels is the main driver."
+  },
+  {
+    "category": "General Information",
+    "q": "What does the '3Rs' in waste management stand for?",
+    "choices": [
+      "Read, Review, Record",
+      "Reduce, Reuse, Recycle",
+      "Report, Respond, Recover",
+      "Remove, Replace, Rebuild"
+    ],
+    "ans": 1,
+    "exp": "Reduce, Reuse, Recycle minimizes solid waste."
+  },
+  {
+    "category": "General Information",
+    "q": "Which agency is responsible for weather forecasting and tropical cyclone warnings in the Philippines?",
+    "choices": [
+      "DENR",
+      "PAGASA",
+      "PHIVOLCS",
+      "NDRRMC"
+    ],
+    "ans": 1,
+    "exp": "PAGASA monitors weather and issues typhoon signals."
+  },
+  {
+    "category": "General Information",
+    "q": "Which agency monitors volcanic activity and earthquakes in the Philippines?",
+    "choices": [
+      "MGB",
+      "NAMRIA",
+      "PHIVOLCS",
+      "PAGASA"
+    ],
+    "ans": 2,
+    "exp": "PHIVOLCS monitors volcanoes, earthquakes, and tsunamis."
+  },
+  {
+    "category": "General Information",
+    "q": "What does ASEAN stand for?",
+    "choices": [
+      "Association of Southeast Asian Nations",
+      "Asian Economic Alliance Network",
+      "Alliance for Southeast Asian Security",
+      "Association of South and East Asian Nations"
+    ],
+    "ans": 0,
+    "exp": "The Philippines is a founding member of ASEAN."
+  },
+  {
+    "category": "General Information",
+    "q": "When is Philippine Independence Day celebrated?",
+    "choices": [
+      "November 30",
+      "August 21",
+      "July 4",
+      "June 12"
+    ],
+    "ans": 3,
+    "exp": "June 12 commemorates the 1898 proclamation of independence."
+  },
+  {
+    "category": "General Information",
+    "q": "Who is the national hero of the Philippines?",
+    "choices": [
+      "Dr. Jose Rizal",
+      "Andres Bonifacio",
+      "Apolinario Mabini",
+      "Emilio Aguinaldo"
+    ],
+    "ans": 0,
+    "exp": "Dr. Jose Rizal is widely recognized as the Philippine national hero."
+  },
+  {
+    "category": "General Information",
+    "q": "What is the basic unit of local government in the Philippines?",
+    "choices": [
+      "Sitio",
+      "Barangay",
+      "Province",
+      "Municipality"
+    ],
+    "ans": 1,
+    "exp": "The barangay is the smallest political and administrative unit."
+  },
+  {
+    "category": "General Information",
+    "q": "Which document certifies that a person has no pending criminal record nationwide in the Philippines?",
+    "choices": [
+      "Barangay Clearance",
+      "NBI Clearance",
+      "PhilHealth ID",
+      "TIN ID"
+    ],
+    "ans": 1,
+    "exp": "NBI Clearance checks nationwide criminal records."
+  }
+]
